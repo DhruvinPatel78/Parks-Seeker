@@ -1,7 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+# Parks Seeker Test App
 ## Available Scripts
 
 In the project directory, you can run:
@@ -13,34 +10,29 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production to the `build` folder.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Planning for the solution
+1. Understand the requirements.
+2. Choose right tools to start such as Material UI as UI library
+3. React-Router-Dom for redirection.
+4. TypeScript for easy of development.
+5. Define workflow and create structer.
+6. Implement Redux for the state management, as it is not necessary to use redux but I thought it's greate idea to use so.
+7. Make Code as simple and standard as possible.
+8. Create custom component where it's needed.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Answers: -
+1. How did you decide which technologies to use as part of your solution?<br>
+=> I have experiance in React, TypeScript, Material UI, Redux and these are very usefull and fast so decide to choose these.
 
-### `npm run eject`
+2. Are there any improvements you could make to your submission?<br>
+=> Yes, I would to add SCSS, some kind of UI workflow and imporve certain code because the deadline is about 24 hours so I gave my best to make it successful.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. What would you do differently if you were allocated more time?<br>
+=> I'll definitely change the UI first, Add some links for navigation, Add authentication to fetch API Key, write some test cases and other stuff.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Thank you for this opportunity.
