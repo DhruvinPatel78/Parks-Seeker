@@ -1,7 +1,8 @@
 import axios from "axios";
+import { API_KEY as API} from '../../common/constant/constant';
 
-// const API_KEY = 'NrDvuh5adeIQdHzeFmh2307da3SNZHSBHvkeiEPk'
-const API_KEY = process.env.REACT_APP_API_KEY
+
+const API_KEY = process.env.REACT_APP_API_KEY ? process.env.REACT_APP_API_KEY : API;
 
 /**
  * global api service
