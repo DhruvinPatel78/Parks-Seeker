@@ -258,8 +258,8 @@ const ParkList = (props: any) => {
                                 </div>
                             </CustomAccordion>
                             <CustomAccordion label={'Contact Details:'}>
-                                <Typography> Email:- {selectedPark.contacts.emailAddresses[0].emailAddress}</Typography><br/>
-                                <Typography> Phone:- {selectedPark.contacts.phoneNumbers[0].phoneNumber}</Typography>
+                                <Typography> Email:- {selectedPark.contacts.emailAddresses[0].emailAddress}<br/>
+                                 Phone:- {selectedPark.contacts.phoneNumbers[0].phoneNumber}</Typography>
                             </CustomAccordion>
                             <CustomAccordion label={'Activities:'}>
                                     <div className={'AccordionScrollContainer'}>

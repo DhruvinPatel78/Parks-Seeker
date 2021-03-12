@@ -10,7 +10,7 @@ import axios from 'axios';
 const News = (props: any) => {
 
     const [ newsList, setNewsList ] = useState<any[]>([]);
-    const [ loading, setLoading ] = useState<boolean>(false);
+    const [ loading, setLoading ] = useState<boolean>(true);
     const [ error, setError ] = useState<string>('');
 
     useEffect(() => {
@@ -29,7 +29,7 @@ const News = (props: any) => {
     return (
         <div className={"listContainer"}>
             <Card title={"News"} variant={'h4'} align={'left'} />
-            {!newsList && loading && <CircularProgress />}
+            {loading && <CircularProgress />}
             {error && <Typography>{error}</Typography>}
             {newsList && !loading && (
             <Grid container spacing={3}>
